@@ -2,3 +2,5 @@
 <h2><%= @artist.name %></h2>
 <p>Age: <%= @artist.age %></p>
 <p>Bio: <br> <%= @artist.bio %></p>
+
+<li><%=link_to "Destroy career", @artist, method: :delete %> </li>
